@@ -1,0 +1,57 @@
+#home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+
+    background-image: url('../images/background-batman.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -999;
+}
+
+
+.batman-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.batman-text img {
+    max-width: 50%;
+}
+
+#home button {
+    width: 100%;
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid #f70122;
+    border-radius: 0.3rem;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#home button:hover {
+    background-color: #f70122;
+    color: #fff;
+}
+
+@media (max-width:1200px) {
+    #home {
+        padding: 50px 50px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .batman-text img {
+        max-width: 70%;
+    }
+}

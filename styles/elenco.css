@@ -1,0 +1,65 @@
+#elenco {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+#elenco h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#elenco p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.people-grid {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.people {
+    width: 200px;
+    height: 300px;
+    padding: 1rem;
+    background-color: #12131767;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#elenco .people img {
+    border-radius: 10%;
+}
+
+#elenco .people h1 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+#elenco .people p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 140%;
+    max-width: 150px;
+    color: #f70122;
+}
+
+@media (max-width:1200px) {
+    #elenco {
+        padding: 50px 50px;
+    }
+
+}
